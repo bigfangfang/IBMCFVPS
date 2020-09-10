@@ -37,5 +37,5 @@ echo '  name: '$appname''>>manifest.yml
 echo '  random-route: true'>>manifest.yml
 echo '  memory: '$ramsize'M'>>manifest.yml
 chmod 777 start.sh
-ibmcloud target --cf
+
 
